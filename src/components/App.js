@@ -2,6 +2,7 @@
 //import "../styles/index.scss";
 import Example from "./example";
 import Navbar from './Navbar/Navbar';
+import './App.css'
 import Example2 from "./example2";
 
 const App = () => {
