@@ -4,6 +4,8 @@ import Navbar from './Navbar/Navbar';
 import './App.css'
 import About from "./Pages/About";
 import Home from "./Pages/Home";
+import Clubs from "./Pages/Clubs";
+import Contact from "./Pages/Contact";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 const App = () => {
@@ -19,6 +21,12 @@ const App = () => {
               </Route>
               <Route path="/about">
                 <About />
+              </Route>
+              <Route path="/clubs">
+                <Clubs />
+              </Route>
+              <Route path="/contact">
+                <Contact />
               </Route>
             </Switch>
           </div>

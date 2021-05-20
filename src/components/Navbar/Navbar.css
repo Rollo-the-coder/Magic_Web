@@ -36,6 +36,18 @@
     transition: all 0.2s ease-out;
 }
 
+/* for website name and icon */
+.nav-title {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-title:hover {
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
 .fa-bars {
     color: #fff;
 }
@@ -114,7 +126,7 @@
         margin: 2rem auto;
         border-radius: 4px;
         width: 80%;
-        background: #4ad9e4;
+        background: #e0d90edb;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
