@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Clubs from "./Pages/Clubs";
 import Contact from "./Pages/Contact";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Footer from "./Footer/Footer";
 
 const App = () => {
   return (
@@ -30,7 +31,7 @@ const App = () => {
               </Route>
             </Switch>
           </div>
-          
+          <Footer />
         </section>
       </main>
     </Router>
